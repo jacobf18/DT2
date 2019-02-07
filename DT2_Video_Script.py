@@ -110,17 +110,4 @@ def outputInstructions(taskCount):
 
 print('How many instructions?')
 x = input()
-print(outputInstructions(x))
-
-
-# In[4]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+print(outputInstructions(int(x)))
