@@ -108,6 +108,5 @@ def outputInstructions(taskCount):
                 outStr += moveItem(itemsIn, itemsOut, 'table', 'outside', index)
     return (outStr)
 
-print('How many instructions?')
 x = input()
 print(outputInstructions(int(x)))
